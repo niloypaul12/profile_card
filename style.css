@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/bg2.jpg);;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    background: #34568B;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 700px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.profile_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 18px solid #f4eeff;
+    
+}
+
+.info{
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.info h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.info ul{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px;
+}
+
+.info ul li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.info ul li img{
+    width: 20px;
+    margin-right: 5px;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.links a{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    height: 50px ;
+    background: #332f2f;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #332f2f;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.links .resume:hover{
+    font-weight: bold;
+    
+    
+}
+
+.links a img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+
+.links .contact{
+    background: white;
+    color: #34568B;
+}
+
+.links .contact:hover{
+    background: #332f2f;
+    color:white ;
+    border: none;
+    font-weight: bold;
+}
+
+.share_icon{
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: #f4eeff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
